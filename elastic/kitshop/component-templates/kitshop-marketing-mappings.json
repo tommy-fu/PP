@@ -1,0 +1,49 @@
+{
+  "template": {
+    "mappings": {
+      "properties":{
+        "price": {
+          "type": "long"
+        },
+        "session":{
+          "properties":{
+            "id":{
+              "type": "keyword"
+            }
+          }
+        },
+        "gumroad_fee": {
+          "type": "long"
+        },
+        "quantity": {
+          "type": "long"
+        },
+        "geoip" : {
+          "properties" : {
+            "city_name" : {
+              "type" : "keyword"
+            },
+            "continent_name" : {
+              "type" : "keyword"
+            },
+            "country_iso_code" : {
+              "type" : "keyword"
+            },
+            "country_name" : {
+              "type" : "keyword"
+            },
+            "location" : {
+              "type": "geo_point"
+            },
+            "region_iso_code" : {
+              "type" : "keyword"
+            },
+            "region_name" : {
+              "type" : "keyword"
+            }
+          }
+        }
+      }
+    }
+  }
+}

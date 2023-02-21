@@ -1,0 +1,67 @@
+INSERT INTO lookup_tags (value, tagname)
+
+VALUES
+
+ ('button_md', 'button-medium' ), 
+
+ ('button_outlined', 'button-outlined' ),
+
+ ('card', 'card' ), 
+
+ ('h1', 'heading-1' ), 
+
+ ('h6', 'heading-6' ), 
+
+ ('image', 'image' ), 
+
+ ('background-image', 'background-image' ),
+
+ ('badge', 'badge' ),
+
+ ('input_md', 'input-medium' ),
+
+ ('link', 'link' ), 
+
+ ('socialmediaicon', 'social-media-icon' ), 
+
+ ('text', 'text' ), 
+
+ ('body-md', 'body-text-medium' ), 
+
+ ('body-lg', 'body-text-large' ), 
+
+ ('i', 'icon' ), 
+
+ ('link_sm', 'link' ), 
+
+ ('button_sm', 'button-small' ), 
+
+ ('caption-md', 'caption-medium' ), 
+
+ ('video', 'video' ), 
+
+ ('fine-print-sm', 'fine-print-small' ), 
+
+ ('fine-print-md', 'fine-print-medium' ), 
+
+ ('h2', 'heading-2' ), 
+
+ ('h3', 'heading-3' ), 
+
+ ('h4', 'heading-4' ), 
+
+ ('mega', 'heading-mega' ), 
+
+ ('has-text-muted', 'text-muted' ), 
+
+ ('avatar', 'avatar' ), 
+
+ ('img', 'image' ),
+ 
+ ('unsplash-image', 'image' );
+
+/*Go to Kibana - Dev Tools and run the following query to update the policy */
+POST /_enrich/policy/tags-policy/_execute
+
+
+

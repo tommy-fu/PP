@@ -1,0 +1,1611 @@
+{
+  "actionLists": {
+    "a-4": {
+      "id": "a-4",
+      "title": "Parallax Card INTRO",
+      "actionItemGroups": [
+        {
+          "actionItems": [
+            {
+              "id": "a-4-n",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".big-circle",
+                  "selectorGuids": [
+                    "1c6fe4c7-9993-9b0b-dec0-dedabfdd7be1"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "xUnit": "px",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-4-n-3",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".mid-circle",
+                  "selectorGuids": [
+                    "24a31a7e-8776-d466-4f31-ad50771180f4"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "xUnit": "px",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-4-n-5",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".small-circle",
+                  "selectorGuids": [
+                    "fa3e3700-7893-922d-9f0d-f8706b1b24e2"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "xUnit": "px",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-4-n-7",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".scrollbar",
+                  "selectorGuids": [
+                    "17672e2e-b8a4-5567-dbdd-06ce909896ec"
+                  ]
+                },
+                "yValue": 0,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-4-n-2",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "outBack",
+                "duration": 750,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".big-circle",
+                  "selectorGuids": [
+                    "1c6fe4c7-9993-9b0b-dec0-dedabfdd7be1"
+                  ]
+                },
+                "yValue": 56,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-4-n-4",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "outBack",
+                "duration": 750,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".mid-circle",
+                  "selectorGuids": [
+                    "24a31a7e-8776-d466-4f31-ad50771180f4"
+                  ]
+                },
+                "yValue": -24,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-4-n-6",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "outBack",
+                "duration": 750,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".small-circle",
+                  "selectorGuids": [
+                    "fa3e3700-7893-922d-9f0d-f8706b1b24e2"
+                  ]
+                },
+                "yValue": 16,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-4-n-8",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "outBack",
+                "duration": 750,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".scrollbar",
+                  "selectorGuids": [
+                    "17672e2e-b8a4-5567-dbdd-06ce909896ec"
+                  ]
+                },
+                "yValue": 153,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-4-n-9",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 750,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".big-circle",
+                  "selectorGuids": [
+                    "1c6fe4c7-9993-9b0b-dec0-dedabfdd7be1"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "xUnit": "px",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-4-n-12",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 750,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".scrollbar",
+                  "selectorGuids": [
+                    "17672e2e-b8a4-5567-dbdd-06ce909896ec"
+                  ]
+                },
+                "yValue": 0,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-4-n-11",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 750,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".small-circle",
+                  "selectorGuids": [
+                    "fa3e3700-7893-922d-9f0d-f8706b1b24e2"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "xUnit": "px",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-4-n-10",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 750,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".mid-circle",
+                  "selectorGuids": [
+                    "24a31a7e-8776-d466-4f31-ad50771180f4"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "xUnit": "px",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            }
+          ]
+        }
+      ],
+      "useFirstGroupAsInitialState": true,
+      "createdOn": 1618512016071
+    },
+    "a-5": {
+      "id": "a-5",
+      "title": "Parallax Card OUTRO",
+      "actionItemGroups": [
+        {
+          "actionItems": [
+            {
+              "id": "a-5-n-9",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 750,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".big-circle",
+                  "selectorGuids": [
+                    "1c6fe4c7-9993-9b0b-dec0-dedabfdd7be1"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "xUnit": "px",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-5-n-10",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 750,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".scrollbar",
+                  "selectorGuids": [
+                    "17672e2e-b8a4-5567-dbdd-06ce909896ec"
+                  ]
+                },
+                "yValue": 0,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-5-n-11",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 750,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".small-circle",
+                  "selectorGuids": [
+                    "fa3e3700-7893-922d-9f0d-f8706b1b24e2"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "xUnit": "px",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-5-n-12",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 750,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".mid-circle",
+                  "selectorGuids": [
+                    "24a31a7e-8776-d466-4f31-ad50771180f4"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "xUnit": "px",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            }
+          ]
+        }
+      ],
+      "useFirstGroupAsInitialState": false,
+      "createdOn": 1618512016071
+    },
+    "a-6": {
+      "id": "a-6",
+      "title": "Slider Card INTRO",
+      "actionItemGroups": [
+        {
+          "actionItems": [
+            {
+              "id": "a-6-n",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|72b27ca3-8590-cf1b-f8ff-83feeceb26eb"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-6-n-4",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|72b27ca3-8590-cf1b-f8ff-83feeceb26eb"
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-6-n-2",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|6f942297-30f8-0ab7-ca64-0ecff2bb71c8"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-6-n-3",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|747fec7e-0ec0-4ab6-ac82-c66c1c1736cf"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-6-n-5",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|747fec7e-0ec0-4ab6-ac82-c66c1c1736cf"
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-6-n-8",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|6f942297-30f8-0ab7-ca64-0ecff2bb71c8"
+                },
+                "value": 1,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-6-n-12",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|3223cd91-858f-6c3a-ab19-308f5d2a03e0"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-6-n-14",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|3223cd91-858f-6c3a-ab19-308f5d2a03e0"
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-6-n-9",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|6f942297-30f8-0ab7-ca64-0ecff2bb71c8"
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-6-n-6",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|747fec7e-0ec0-4ab6-ac82-c66c1c1736cf"
+                },
+                "xValue": -224,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-6-n-7",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|6f942297-30f8-0ab7-ca64-0ecff2bb71c8"
+                },
+                "xValue": -224,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-6-n-10",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|72b27ca3-8590-cf1b-f8ff-83feeceb26eb"
+                },
+                "xValue": -224,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-6-n-13",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|3223cd91-858f-6c3a-ab19-308f5d2a03e0"
+                },
+                "xValue": -200,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-6-n-11",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|72b27ca3-8590-cf1b-f8ff-83feeceb26eb"
+                },
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-6-n-15",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|72b27ca3-8590-cf1b-f8ff-83feeceb26eb"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-6-n-16",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|72b27ca3-8590-cf1b-f8ff-83feeceb26eb"
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-6-n-17",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|6f942297-30f8-0ab7-ca64-0ecff2bb71c8"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-6-n-18",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|747fec7e-0ec0-4ab6-ac82-c66c1c1736cf"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-6-n-19",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|747fec7e-0ec0-4ab6-ac82-c66c1c1736cf"
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-6-n-20",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|6f942297-30f8-0ab7-ca64-0ecff2bb71c8"
+                },
+                "value": 1,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-6-n-21",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|3223cd91-858f-6c3a-ab19-308f5d2a03e0"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-6-n-22",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|3223cd91-858f-6c3a-ab19-308f5d2a03e0"
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ],
+      "useFirstGroupAsInitialState": true,
+      "createdOn": 1618566501526
+    },
+    "a-7": {
+      "id": "a-7",
+      "title": "Slider Card OUTRO",
+      "actionItemGroups": [
+        {
+          "actionItems": [
+            {
+              "id": "a-7-n",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|72b27ca3-8590-cf1b-f8ff-83feeceb26eb"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-7-n-2",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|72b27ca3-8590-cf1b-f8ff-83feeceb26eb"
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-7-n-3",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|6f942297-30f8-0ab7-ca64-0ecff2bb71c8"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-7-n-4",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|747fec7e-0ec0-4ab6-ac82-c66c1c1736cf"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-7-n-5",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|747fec7e-0ec0-4ab6-ac82-c66c1c1736cf"
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-7-n-6",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|6f942297-30f8-0ab7-ca64-0ecff2bb71c8"
+                },
+                "value": 1,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-7-n-7",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|3223cd91-858f-6c3a-ab19-308f5d2a03e0"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-7-n-8",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|3223cd91-858f-6c3a-ab19-308f5d2a03e0"
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-7-n-15",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|72b27ca3-8590-cf1b-f8ff-83feeceb26eb"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-7-n-16",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|72b27ca3-8590-cf1b-f8ff-83feeceb26eb"
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-7-n-17",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|6f942297-30f8-0ab7-ca64-0ecff2bb71c8"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-7-n-18",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|747fec7e-0ec0-4ab6-ac82-c66c1c1736cf"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-7-n-19",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|747fec7e-0ec0-4ab6-ac82-c66c1c1736cf"
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-7-n-20",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|6f942297-30f8-0ab7-ca64-0ecff2bb71c8"
+                },
+                "value": 1,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-7-n-21",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|3223cd91-858f-6c3a-ab19-308f5d2a03e0"
+                },
+                "xValue": 0,
+                "xUnit": "px",
+                "yUnit": "PX",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-7-n-22",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 500,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6078467da4b5d4439eb23a1b|3223cd91-858f-6c3a-ab19-308f5d2a03e0"
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ],
+      "useFirstGroupAsInitialState": true,
+      "createdOn": 1618566501526
+    },
+    "a-8": {
+      "id": "a-8",
+      "title": "Popup Animation INTRO",
+      "actionItemGroups": [
+        {
+          "actionItems": [
+            {
+              "id": "a-8-n",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".modal-div",
+                  "selectorGuids": [
+                    "2962004c-aa67-a9e4-a884-9b8dcfb5a319"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "locked": true
+              }
+            },
+            {
+              "id": "a-8-n-3",
+              "actionTypeId": "TRANSFORM_ROTATE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".modal-div",
+                  "selectorGuids": [
+                    "2962004c-aa67-a9e4-a884-9b8dcfb5a319"
+                  ]
+                },
+                "zValue": -8,
+                "xUnit": "DEG",
+                "yUnit": "DEG",
+                "zUnit": "deg"
+              }
+            },
+            {
+              "id": "a-8-n-7",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".modal-div",
+                  "selectorGuids": [
+                    "2962004c-aa67-a9e4-a884-9b8dcfb5a319"
+                  ]
+                },
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-8-n-2",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 600,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".modal-div",
+                  "selectorGuids": [
+                    "2962004c-aa67-a9e4-a884-9b8dcfb5a319"
+                  ]
+                },
+                "xValue": 1,
+                "yValue": 1,
+                "locked": true
+              }
+            },
+            {
+              "id": "a-8-n-4",
+              "actionTypeId": "TRANSFORM_ROTATE",
+              "config": {
+                "delay": 600,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".modal-div",
+                  "selectorGuids": [
+                    "2962004c-aa67-a9e4-a884-9b8dcfb5a319"
+                  ]
+                },
+                "zValue": 0,
+                "xUnit": "DEG",
+                "yUnit": "DEG",
+                "zUnit": "deg"
+              }
+            },
+            {
+              "id": "a-8-n-9",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 600,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".modal-div",
+                  "selectorGuids": [
+                    "2962004c-aa67-a9e4-a884-9b8dcfb5a319"
+                  ]
+                },
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-8-n-5",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 1200,
+                "easing": "outBack",
+                "duration": 600,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".modal-div",
+                  "selectorGuids": [
+                    "2962004c-aa67-a9e4-a884-9b8dcfb5a319"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "locked": true
+              }
+            },
+            {
+              "id": "a-8-n-6",
+              "actionTypeId": "TRANSFORM_ROTATE",
+              "config": {
+                "delay": 1200,
+                "easing": "outBack",
+                "duration": 600,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".modal-div",
+                  "selectorGuids": [
+                    "2962004c-aa67-a9e4-a884-9b8dcfb5a319"
+                  ]
+                },
+                "zValue": -8,
+                "xUnit": "DEG",
+                "yUnit": "DEG",
+                "zUnit": "deg"
+              }
+            },
+            {
+              "id": "a-8-n-8",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 1200,
+                "easing": "outBack",
+                "duration": 600,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".modal-div",
+                  "selectorGuids": [
+                    "2962004c-aa67-a9e4-a884-9b8dcfb5a319"
+                  ]
+                },
+                "value": 0,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ],
+      "useFirstGroupAsInitialState": true,
+      "createdOn": 1618568701118
+    },
+    "a-10": {
+      "id": "a-10",
+      "title": "Popup Animation OUTRO",
+      "actionItemGroups": [
+        {
+          "actionItems": [
+            {
+              "id": "a-10-n",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 0,
+                "easing": "outBack",
+                "duration": 600,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".modal-div",
+                  "selectorGuids": [
+                    "2962004c-aa67-a9e4-a884-9b8dcfb5a319"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "locked": true
+              }
+            },
+            {
+              "id": "a-10-n-2",
+              "actionTypeId": "TRANSFORM_ROTATE",
+              "config": {
+                "delay": 0,
+                "easing": "outBack",
+                "duration": 600,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".modal-div",
+                  "selectorGuids": [
+                    "2962004c-aa67-a9e4-a884-9b8dcfb5a319"
+                  ]
+                },
+                "zValue": -8,
+                "xUnit": "DEG",
+                "yUnit": "DEG",
+                "zUnit": "deg"
+              }
+            },
+            {
+              "id": "a-10-n-3",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "outBack",
+                "duration": 600,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".modal-div",
+                  "selectorGuids": [
+                    "2962004c-aa67-a9e4-a884-9b8dcfb5a319"
+                  ]
+                },
+                "value": 0,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ],
+      "useFirstGroupAsInitialState": false,
+      "createdOn": 1618568701118
+    },
+    "a-9": {
+      "id": "a-9",
+      "title": "Navigation Card INTRO",
+      "actionItemGroups": [
+        {
+          "actionItems": [
+            {
+              "id": "a-9-n",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-top-div.mb-8",
+                  "selectorGuids": [
+                    "b749c740-01fd-32cb-9262-ccc111c901ad",
+                    "d03e5494-6436-0b46-71d0-bd031dadc2a0"
+                  ]
+                },
+                "value": 1,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-9-n-3",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-top-div.mb-8",
+                  "selectorGuids": [
+                    "b749c740-01fd-32cb-9262-ccc111c901ad",
+                    "d03e5494-6436-0b46-71d0-bd031dadc2a0"
+                  ]
+                },
+                "xValue": 1,
+                "yValue": 1,
+                "locked": true
+              }
+            },
+            {
+              "id": "a-9-n-5",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-bot-div",
+                  "selectorGuids": [
+                    "c942e66f-31df-5a97-3cbf-fef17c0f2aad"
+                  ]
+                },
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-9-n-7",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-bot-div",
+                  "selectorGuids": [
+                    "c942e66f-31df-5a97-3cbf-fef17c0f2aad"
+                  ]
+                },
+                "yValue": -8,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-9-n-2",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 600,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-top-div.mb-8",
+                  "selectorGuids": [
+                    "b749c740-01fd-32cb-9262-ccc111c901ad",
+                    "d03e5494-6436-0b46-71d0-bd031dadc2a0"
+                  ]
+                },
+                "value": 0.4,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-9-n-4",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 600,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-top-div.mb-8",
+                  "selectorGuids": [
+                    "b749c740-01fd-32cb-9262-ccc111c901ad",
+                    "d03e5494-6436-0b46-71d0-bd031dadc2a0"
+                  ]
+                },
+                "xValue": 1.025,
+                "yValue": 1.025,
+                "locked": true
+              }
+            },
+            {
+              "id": "a-9-n-6",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 600,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-bot-div",
+                  "selectorGuids": [
+                    "c942e66f-31df-5a97-3cbf-fef17c0f2aad"
+                  ]
+                },
+                "value": 1,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-9-n-8",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 600,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-bot-div",
+                  "selectorGuids": [
+                    "c942e66f-31df-5a97-3cbf-fef17c0f2aad"
+                  ]
+                },
+                "yValue": 0,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-9-n-9",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 1200,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-top-div.mb-8",
+                  "selectorGuids": [
+                    "b749c740-01fd-32cb-9262-ccc111c901ad",
+                    "d03e5494-6436-0b46-71d0-bd031dadc2a0"
+                  ]
+                },
+                "value": 1,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-9-n-12",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 1200,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-bot-div",
+                  "selectorGuids": [
+                    "c942e66f-31df-5a97-3cbf-fef17c0f2aad"
+                  ]
+                },
+                "yValue": -8,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-9-n-11",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 1200,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-bot-div",
+                  "selectorGuids": [
+                    "c942e66f-31df-5a97-3cbf-fef17c0f2aad"
+                  ]
+                },
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-9-n-10",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 1200,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-top-div.mb-8",
+                  "selectorGuids": [
+                    "b749c740-01fd-32cb-9262-ccc111c901ad",
+                    "d03e5494-6436-0b46-71d0-bd031dadc2a0"
+                  ]
+                },
+                "xValue": 1,
+                "yValue": 1,
+                "locked": true
+              }
+            }
+          ]
+        }
+      ],
+      "useFirstGroupAsInitialState": true,
+      "createdOn": 1618765254126
+    },
+    "a-11": {
+      "id": "a-11",
+      "title": "Navigation Card OUTRO",
+      "actionItemGroups": [
+        {
+          "actionItems": [
+            {
+              "id": "a-11-n-12",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 0,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-top-div.mb-8",
+                  "selectorGuids": [
+                    "b749c740-01fd-32cb-9262-ccc111c901ad",
+                    "d03e5494-6436-0b46-71d0-bd031dadc2a0"
+                  ]
+                },
+                "xValue": 1,
+                "yValue": 1,
+                "locked": true
+              }
+            },
+            {
+              "id": "a-11-n-9",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-top-div.mb-8",
+                  "selectorGuids": [
+                    "b749c740-01fd-32cb-9262-ccc111c901ad",
+                    "d03e5494-6436-0b46-71d0-bd031dadc2a0"
+                  ]
+                },
+                "value": 1,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-11-n-10",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-bot-div",
+                  "selectorGuids": [
+                    "c942e66f-31df-5a97-3cbf-fef17c0f2aad"
+                  ]
+                },
+                "yValue": -8,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-11-n-11",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "outBack",
+                "duration": 400,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".nav-bot-div",
+                  "selectorGuids": [
+                    "c942e66f-31df-5a97-3cbf-fef17c0f2aad"
+                  ]
+                },
+                "value": 0,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ],
+      "useFirstGroupAsInitialState": false,
+      "createdOn": 1618765254126
+    }
+  }
+}

@@ -1,0 +1,115 @@
+.bg-overlay::after {
+  background: linear-gradient(111.65deg, #000000 0%, rgba(0, 0, 0, 0) 99.49%);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.overlay .input {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.overlay .input:active {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border-color: #fff;
+}
+
+.overlay .input:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.overlay .input:focus {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border-color: #fff;
+}
+
+.overlay .input:disabled {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.01);
+}
+
+.overlay .badge {
+  background: #77BBCC;
+  color: #77BBCC;
+  border-color: #77BBCC;
+}
+.overlay .mega {
+  color: #F7FAFA;
+}
+
+.overlay .h1 {
+  color: #F7FAFA;
+}
+
+.overlay .h2 {
+  color: #F7FAFA;
+}
+
+.overlay .h3 {
+  color: #F7FAFA;
+}
+
+.overlay .h4 {
+  color: #F7FAFA;
+}
+
+.overlay .h5 {
+  color: #F7FAFA;
+}
+
+.overlay .h6 {
+  color: #F7FAFA;
+}
+
+.overlay .body-xl {
+  color: #C8CBCC;
+}
+
+.overlay .body-lg {
+  color: #C8CBCC;
+}
+
+.overlay .body {
+  color: #C8CBCC;
+}
+
+.overlay .body-sm {
+  color: #C8CBCC;
+}
+
+.overlay .body-xs {
+  color: #C8CBCC;
+}
+
+.overlay .link {
+  color: #fff;
+}
+
+.overlay .link:active {
+  color: #fff;
+}
+
+.overlay .link:hover {
+  color: #fff;
+}
+
+.overlay .link:focus {
+  color: #fff;
+}
+
+.overlay .link:disabled {
+  color: #fff;
+}

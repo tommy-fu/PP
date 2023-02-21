@@ -1,0 +1,73 @@
+{
+    "sections_template": {
+        "order": 0,
+        "index_patterns": [
+            "local_tommy_sections_test*"
+        ],
+        "settings": {
+            "index": {
+                "number_of_shards": "1",
+                "default_pipeline": "generate-tags",
+                "number_of_replicas": "1",
+                "routing": {
+                    "allocation": {
+                        "include": {
+                            "_tier_preference": "data_content"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "mappings": {
+        "properties": {
+            "beta_section": {
+                "type": "long"
+            },
+            "html": {
+                "type": "text",
+                "fields": {
+                    "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                    }
+                }
+            },
+            "id": {
+                "type": "long"
+            },
+            "section_category": {
+                "type": "text",
+                "fields": {
+                    "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                    }
+                }
+            },
+            "tags": {
+                "properties": {
+                    "tagname": {
+                        "type": "text",
+                        "fields": {
+                            "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                            }
+                        }
+                    },
+                    "value": {
+                        "type": "text",
+                        "fields": {
+                            "keyword": {
+                                "type": "keyword",
+                                "ignore_above": 256
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "aliases": {}
+}

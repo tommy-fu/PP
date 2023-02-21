@@ -1,0 +1,66 @@
+{
+  "description" : "Parses curity-authentication",
+  "processors" : [
+    {
+      "set": {
+        "field": "event.ingested",
+        "value": "{{_ingest.timestamp}}",
+        "override": true
+      }
+    },
+    {
+      "rename": {
+        "field": "azure",
+        "target_field": "azure-eventhub",
+        "ignore_missing": true,
+        "ignore_failure": true
+      }
+    },
+    {
+      "script": {
+        "source": "ctx.message = ctx.message.replace(params.empty_field_name, '')",
+        "params": {
+          "empty_field_name": "\"\":\"\","
+        },
+        "if": "ctx.message != null",
+        "ignore_failure": true
+      }
+    },
+    {
+      "json": {
+        "field": "message",
+        "target_field": "Curity",
+        "if": "ctx.message != null"
+      }
+    },
+    {
+      "geoip" : {
+        "field" : "Curity.authenticationAttributes.context.userinfo.ipAddress",
+        "target_field" : "source.geo",
+        "ignore_missing" : true,
+        "ignore_failure" : true
+      }
+    },
+    {
+      "fingerprint": {
+        "fields": ["Curity.authenticationAttributes"],
+        "target_field": "_id"
+      }
+    },
+    {
+      "remove": {
+        "field": "message",
+        "ignore_missing": true,
+        "description": "Remove message field"
+      }
+    }
+  ],
+  "on_failure" : [
+    {
+      "set" : {
+        "field" : "error.message",
+        "value" : "{{ _ingest.on_failure_message }}"
+      }
+    }
+  ]
+}

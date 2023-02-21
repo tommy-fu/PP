@@ -1,0 +1,127 @@
+{
+  "actionLists": {
+    "a": {
+      "id": "a",
+      "title": "Show Success State",
+      "actionItemGroups": [
+        {
+          "actionItems": [
+            {
+              "id": "a-n",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "selector": "03b2b429-7aae-8d21-57e9-c9b30dab4717",
+                  "selectorGuids": [
+                    "03b2b429-7aae-8d21-57e9-c9b30dab4717"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "zValue": 0,
+                "xUnit": "px",
+                "yUnit": "px",
+                "zUnit": "px"
+              }
+            },
+            {
+              "id": "a-3-n-88",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "easeInOut",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "id": "6076d881ab96444e8159478c|015bcc1f-48c0-5366-4349-430bb3db590a"
+                },
+                "value": 0,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-n2",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 2200,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "selector": "Something random",
+                  "selectorGuids": [
+                    "03b2b429-7aae-8d21-57e9-5555"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "zValue": 0,
+                "xUnit": "px",
+                "yUnit": "px",
+                "zUnit": "px"
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-n4",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 2200,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "selector": "Something in between",
+                  "selectorGuids": [
+                    "03b2b429-7aae-8d21-57e9-5555"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "zValue": 0,
+                "xUnit": "px",
+                "yUnit": "px",
+                "zUnit": "px"
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-n3",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 2200,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "selector": "03b2b429-7aae-8d21-57e9-c9b30dab4717",
+                  "selectorGuids": [
+                    "03b2b429-7aae-8d21-57e9-c9b30dab4717"
+                  ]
+                },
+                "xValue": 0,
+                "yValue": 0,
+                "zValue": 0,
+                "xUnit": "px",
+                "yUnit": "px",
+                "zUnit": "px"
+              }
+            }
+          ]
+        }
+      ],
+      "createdOn": 1618246023854,
+      "useFirstGroupAsInitialState": false
+    }
+  }
+}

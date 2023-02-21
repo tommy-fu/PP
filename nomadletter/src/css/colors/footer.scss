@@ -1,0 +1,103 @@
+.footer .input {
+  background: #F5F5F5;
+  color: #0A0A0A;
+  border-color: #F5F5F5;
+}
+
+.footer .input:active {
+  background: #fff;
+  color: #0A0A0A;
+  border-color: #0A0A0A;
+}
+
+.footer .input:hover {
+  background: #F5F5F5;
+  color: #0A0A0A;
+  border-color: #F5F5F5;
+}
+
+.footer .input:focus {
+  background: #fff;
+  color: #0A0A0A;
+  border-color: #0A0A0A;
+}
+
+.footer .input:disabled {
+  background: rgba(245, 245, 245, 0.15);
+  color: rgba(10, 10, 10, 0.15);
+  border-color: rgba(245, 245, 245, 0.15);
+}
+
+.footer .badge {
+  background: #0A0A0A;
+  color: #736E6F;
+  border-color: transparent;
+}
+
+.footer .mega {
+  color: #1F1D1E;
+}
+
+.footer .h1 {
+  color: #1F1D1E;
+}
+
+.footer .h2 {
+  color: #1F1D1E;
+}
+
+.footer .h3 {
+  color: #1F1D1E;
+}
+
+.footer .h4 {
+  color: #1F1D1E;
+}
+
+.footer .h5 {
+  color: #1F1D1E;
+}
+
+.footer .h6 {
+  color: #1F1D1E;
+}
+
+.footer .body.is-xl {
+  color: #5C5859;
+}
+
+.footer .body.is-lg {
+  color: #666263;
+}
+
+.footer .body {
+  color: #666263;
+}
+
+.footer .body.is-sm {
+  color: #7A7676;
+}
+
+.footer .body.is-xs {
+  color: #8F898A;
+}
+
+.footer .link {
+  color: #666464;
+}
+
+.footer .link:active {
+  color: #1F1E1E;
+}
+
+.footer .link:hover {
+  color: #1F1E1E;
+}
+
+.footer .link:focus {
+  color: #666464;
+}
+
+.footer .link:disabled {
+  color: rgba(102, 100, 100, 0.15);
+}

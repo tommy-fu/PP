@@ -1,0 +1,126 @@
+
+  "source": {
+    "index": [
+      "kitshop-marketing-test"
+    ],
+    "query": {
+      "match_all": {}
+    }
+  },
+  "dest": {
+    "index": "kitshop-session"
+  },
+  "sync": {
+    "time": {
+      "field": "@timestamp"
+    }
+  },
+  "frequency": "1m",
+  "pivot": {
+    "group_by": {
+      "sessionid": {
+        "terms": {
+          "field": "session.id"
+        }
+      }
+    },
+    "aggregations": {
+      "events": {
+        "terms": {
+          "field": "event.type.keyword",
+          "size": 10
+        }
+      },
+      "session_details": {
+        "scripted_metric": {
+          "init_script": "state.docs = []",
+          "map_script": """ 
+          
+            Map span = [
+            '@timestamp' :  doc['@timestamp'].value,
+            'referrer' : doc['referrer.keyword'].value,
+            'url' : doc['url.keyword'].value,
+            'event' : doc['event.type.keyword'].value
+            ]; 
+            state.docs.add(span)
+          """,
+          "combine_script": "return state.docs;",
+          "reduce_script": """ 
+            def all_docs = [];
+            for (s in states) {
+              for (span in s) {
+                all_docs.add(span);
+                        }
+                    }
+            all_docs.sort((HashMap o1, HashMap o2)->o1['@timestamp'
+                    ].millis.compareTo(o2['@timestamp'
+                    ].millis));
+            def size = all_docs.size();
+            def min_time = all_docs[
+                        0
+                    ]['@timestamp'
+                    ];
+            def max_time = all_docs[size-1
+                    ]['@timestamp'
+                    ];
+            def duration = (max_time.millis - min_time.millis) / 1000;
+            def entry_page = all_docs[0]['url'];
+            def exit_path = all_docs[size-1]['url'];
+            def first_event = all_docs[0]['event'];
+            def last_event = all_docs[size-1]['event'];
+            def first_referrer = all_docs[0]['referrer'];
+            def ret = new HashMap();
+            ret['first_time'] = min_time;
+            ret['last_time'] = max_time;
+            ret['first_event'] = first_event;
+            ret['last_event'] = last_event;
+            ret['duration'] = duration;
+            ret['entry_page'] = entry_page;
+            ret['exit_path'] = exit_path;
+            ret['first_referrer'] = first_referrer;
+            return ret;
+          """
+        }
+      },
+      "pageviews": {
+        "value_count": {
+          "field": "url.keyword"
+        }
+      },
+      "urls": {
+        "terms": {
+          "field": "url.keyword"
+        }
+      },
+      "sales": {
+        "sum": {
+          "field": "quantity"
+        }
+      },
+      "product": {
+        "terms": {
+          "field": "product_name.keyword"
+        }
+      },
+      "price": {
+        "sum": {
+          "field": "price"
+        }
+      },
+      "gumroad_fee": {
+        "sum": {
+          "field": "gumroad_fee"
+        }
+      },
+      "revenue": {
+        "bucket_script": {
+          "buckets_path": {
+            "price": "price",
+            "gumroad_fee": "gumroad_fee"
+          },
+          "script": "params.price - params.gumroad_fee"
+        }
+      }
+    }
+  }
+}

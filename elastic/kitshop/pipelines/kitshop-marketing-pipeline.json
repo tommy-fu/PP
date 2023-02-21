@@ -1,0 +1,60 @@
+{
+  "processors": [
+    {
+      "date": {
+        "if": "ctx.timestamp != null",
+        "field": "timestamp",
+        "target_field": "@timestamp",
+        "formats": [
+          "UNIX"
+        ],
+        "timezone": "Europe/Amsterdam"
+      }
+    },
+    {
+      "date": {
+        "if": "ctx.sale_timestamp != null",
+        "field": "sale_timestamp",
+        "target_field": "@timestamp",
+        "formats": [
+          "UNIX",
+          "ISO8601"
+        ],
+        "timezone": "Europe/Amsterdam",
+        "ignore_failure": true
+      }
+    },
+    {
+      "script": {
+        "if": "ctx.url_params != null",
+        "lang": "painless",
+        "source": "ctx['event.type'] = ctx.url_params.et; ctx['session.id'] = ctx.url_params.sid; ctx['url'] = ctx.product_permalink",
+        "ignore_failure": true
+      }
+    },
+    {
+      "user_agent": {
+        "if": "ctx.agent != null",
+        "field": "agent",
+        "target_field": "user_agent"
+      }
+    },
+    {
+      "geoip": {
+        "if": "ctx.clientIP != null",
+        "field": "clientIP"
+      }
+    },
+    {
+      "remove": {
+        "ignore_failure": true,
+        "field": [
+          "timestamp",
+          "agent",
+          "language",
+          "user_agent.original"
+        ]
+      }
+    }
+  ]
+}

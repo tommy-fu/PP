@@ -1,0 +1,35 @@
+{
+    "source": {
+      "index": "hej"
+    },
+    "pivot": {
+      "group_by": {
+        "sid": {
+          "terms": {
+            "field": "sessionid.keyword"
+          }
+        }
+      },
+      "aggregations": {
+        "events": {
+          "scripted_metric": {
+            "init_script": "state.docs = []",
+            "map_script": """ 
+              def code = doc['event.type.keyword'].value;
+              state.docs.add(code)
+            """,
+            "combine_script": "state.docs;",
+            "reduce_script": """ 
+            def array  = [];
+            for (s in states)
+            {
+              array.add(s)
+            }
+     
+              return array;
+            """
+          }
+        }
+      }
+    }
+  }

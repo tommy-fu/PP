@@ -1,0 +1,97 @@
+.header .input {
+  background: #F5F5F5;
+  color: #0A0A0A;
+  border-color: #F5F5F5;
+}
+
+.header .input:active {
+  background: #fff;
+  color: #0A0A0A;
+  border-color: #0A0A0A;
+}
+
+.header .input:hover {
+  background: #F5F5F5;
+  color: #0A0A0A;
+  border-color: #F5F5F5;
+}
+
+.header .input:focus {
+  background: #fff;
+  color: #0A0A0A;
+  border-color: #0A0A0A;
+}
+
+.header .input:disabled {
+  background: rgba(245, 245, 245, 0.15);
+  color: rgba(10, 10, 10, 0.15);
+  border-color: rgba(245, 245, 245, 0.15);
+}
+
+.header .mega {
+  color: #1F1D1E;
+}
+
+.header .h1 {
+  color: #1F1D1E;
+}
+
+.header .h2 {
+  color: #1F1D1E;
+}
+
+.header .h3 {
+  color: #1F1D1E;
+}
+
+.header .h4 {
+  color: #1F1D1E;
+}
+
+.header .h5 {
+  color: #1F1D1E;
+}
+
+.header .h6 {
+  color: #1F1D1E;
+}
+
+.header .body.is-xl {
+  color: #5C5859;
+}
+
+.header .body.is-lg {
+  color: #666263;
+}
+
+.header .body {
+  color: #666263;
+}
+
+.header .body.is-sm {
+  color: #7A7676;
+}
+
+.header .body.is-xs {
+  color: #8F898A;
+}
+
+.header .link {
+  color: #666464;
+}
+
+.header .link:active {
+  color: #1F1E1E;
+}
+
+.header .link:hover {
+  color: #1F1E1E;
+}
+
+.header .link:focus {
+  color: #666464;
+}
+
+.header .link:disabled {
+  color: rgba(102, 100, 100, 0.15);
+}

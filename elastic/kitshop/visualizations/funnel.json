@@ -1,0 +1,144 @@
+{
+  $schema: https://vega.github.io/schema/vega-lite/v5.json
+  autosize: none
+  data: {
+    url: {
+      %context%: true
+      %timefield%: timestamp
+      index: kitshop-session
+      body: {
+        aggs: {
+          events: {
+            terms: {
+              field: events.keyword
+            }
+          }
+        }
+        size: 0
+      }
+    }
+    format: {
+      property: aggregations.events.buckets
+    }
+  }
+  transform: [
+    {
+      window: [
+        {
+          op: lead
+          field: doc_count
+          as: sum
+        }
+      ]
+    }
+    {
+      calculate: datum.key === 'purchase' ? '' : (datum.sum / datum.doc_count) * 100
+      as: per
+    }
+  ]
+  encoding: {
+    y: {
+      field: key
+      type: nominal
+      sort: null
+    }
+  }
+  layer: [
+    {
+      mark: {
+        type: bar
+        size: 65
+        legend: none
+      }
+      encoding: {
+        color: {
+          field: key
+          type: nominal
+          legend: null
+          scale: {
+            scheme: blues
+          }
+        }
+        x: {
+          field: doc_count
+          type: quantitative
+          stack: center
+        }
+      }
+    }
+    {
+      mark: {
+        type: text
+        dx: 0
+        
+      }
+      encoding: {
+        text: {
+          field: doc_count
+          type: quantitative
+        }
+        color: {
+        value: white
+        }
+      }
+    }
+    {
+      mark: {
+        type: text
+        fontWeight: bold
+        dy: 40
+        dx: 0
+        baseline: top
+      }
+      encoding: {
+        color: {
+          condition: [
+            {
+              test: datum.per >= '50'
+              value: green
+            },
+            {
+              test: datum.key === 'purchase'
+              value: white
+            }
+          ]
+          value: red
+        }
+        text: {
+          format: ".0f"
+          field: per
+          type: number
+        }
+      }
+    }
+    {
+    mark: {
+        type: text
+        fontWeight: bold
+        dy: 40
+        dx: 15
+        baseline: top
+    }
+    encoding : {
+      text: {
+        value: "%"  
+      }
+      color: {
+        condition:{
+          test: datum.key === 'purchase'
+          value:white
+        }
+      }
+    }
+    }
+  ]
+  height: 600
+  width: 700
+  padding: 55
+  config: {
+    axis: {
+      grid: false
+    }
+    background: white
+  }
+}

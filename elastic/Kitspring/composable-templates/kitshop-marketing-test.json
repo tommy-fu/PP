@@ -1,0 +1,14 @@
+{
+  "priority": 10,
+  "template": {
+    "settings": {
+    }
+  },
+  "index_patterns": [
+    "kitshop-marketing-test*"
+  ],
+  "composed_of": [
+    "kitshop-marketing-mappings",
+    "kitshop-marketing-settings"
+  ]
+}

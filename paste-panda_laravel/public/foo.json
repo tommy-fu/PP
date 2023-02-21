@@ -1,0 +1,15 @@
+[{
+  "type": "click",
+  "section_fragments": [],
+  "java_script_module_id": 9,
+  "arguments": {
+    "sectionId": "191",
+    "config": {
+      "autoplay": {
+        "delay": 2000
+      }
+    },
+    "slideChange": "for (let i = 0; i < swiperButtons.length; i++) { var element = swiperButtons[i];   element.classList.remove('has-text-primary'); if(i == el.activeIndex)   element.classList.toggle('has-text-primary');   }"
+
+  }
+}]

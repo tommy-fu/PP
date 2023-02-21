@@ -1,0 +1,41 @@
+{
+    "sections_template" : {
+      "order" : 0,
+      "index_patterns" : [
+        "local_tommy_sections_test*"
+      ],
+      "settings" : {
+        "index" : {
+          "number_of_shards" : "1",
+          "default_pipeline" : "generate-tags"
+        }
+      },
+      "mappings" : {
+        "properties" : {
+          "tags" : {
+            "properties" : {
+              "tagname" : {
+                "type" : "text",
+                "fields" : {
+                  "keyword" : {
+                    "ignore_above" : 256,
+                    "type" : "keyword"
+                  }
+                }
+              },
+              "value" : {
+                "type" : "text",
+                "fields" : {
+                  "keyword" : {
+                    "ignore_above" : 256,
+                    "type" : "keyword"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "aliases" : { }
+    }
+  }

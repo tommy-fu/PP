@@ -1,0 +1,60 @@
+.accordion-header-icon {
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+.accordion.is-active .accordion-header-icon {
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+}
+
+.accordion-header-icon {
+  transition: transform 200ms ease-in;
+}
+
+.accordion.is-active .accordion-header, .accordion-header:hover {
+  padding-left: 10px;
+
+}
+
+.accordion.is-active .accordion-header .h3 {
+  color: #FF5A76;
+}
+
+.accordion-header {
+  transition: padding 200ms ease-in-out;
+  padding: 0px;
+}
+
+.accordion.is-active .accordion-toggle {
+  max-height: 9999px;
+  cursor: default;
+  transition: max-height 0.8s;
+  transition-timing-function: cubic-bezier(0.5, 0, 1, 0);
+  transition-delay: 0s;
+}
+
+.accordion-toggle {
+  display: block !important;
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.8s;
+  transition-timing-function: cubic-bezier(0, 1, 0, 1) -0.3s;
+  transition-delay: 0s;
+  padding-left: 10px;
+}
+
+.accordion {
+  cursor: pointer;
+  user-select: none;
+}
+
+.accordion-toggle {
+  display: none;
+}
+
+.accordion.is-active .accordion-toggle {
+  display: block;
+}

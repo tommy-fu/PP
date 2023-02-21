@@ -1,0 +1,10 @@
+{
+    "processors": [
+        {
+            "geoip": {
+                "if": "ctx.ip != null",
+                "field": "ip"
+            }
+        }
+    ]
+}

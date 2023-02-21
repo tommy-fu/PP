@@ -1,0 +1,115 @@
+{
+}
+ {
+}
+.input {
+  background: #F5F5F5;
+  color: #0A0A0A;
+  border-color: #F5F5F5;
+}
+.input:active {
+  background: #fff;
+  color: #0A0A0A;
+  border-color: #0A0A0A;
+}
+.input:hover {
+  background: #F5F5F5;
+  color: #0A0A0A;
+  border-color: #F5F5F5;
+}
+.input:focus {
+  background: #fff;
+  color: #0A0A0A;
+  border-color: #0A0A0A;
+}
+.input:disabled {
+  background: rgba(245, 245, 245, 0.15);
+  color: rgba(10, 10, 10, 0.15);
+  border-color: rgba(245, 245, 245, 0.15);
+}
+.badge {
+  background: #0A0A0A;
+  color: #72736E;
+  border-color: transparent;
+}
+.button {
+  background: #0A0A0A;
+  color: #fff;
+  border-color: #0A0A0A;
+}
+.button:active {
+  background: #0A0A0A;
+  color: #fff;
+  border-color: #0A0A0A;
+}
+.button:hover {
+  background: #0A0A0A;
+  color: #fff;
+  border-color: #0A0A0A;
+}
+.button:focus {
+  background: #0A0A0A;
+  color: #fff;
+  border-color: #0A0A0A;
+}
+.button:disabled {
+  background: rgba(10, 10, 10, 0.15);
+  color: #fff;
+  border-color: rgba(10, 10, 10, 0.15);
+}
+.mega {
+  color: #1E1F1D;
+}
+.h1 {
+  color: #1E1F1D;
+}
+.h2 {
+  color: #1E1F1D;
+}
+.h3 {
+  color: #1E1F1D;
+}
+.h4 {
+  color: #1E1F1D;
+}
+.h5 {
+  color: #1E1F1D;
+}
+.h6 {
+  color: #1E1F1D;
+}
+.body_xl {
+  color: #5B5C58;
+}
+.body_lg {
+  color: #656662;
+}
+.body_md {
+  color: #656662;
+}
+.body_sm {
+  color: #797A76;
+}
+.body_xs {
+  color: #8E8F89;
+}
+.link {
+  color: #0A0A0A;
+}
+.link:active {
+  color: #0A0A0A;
+}
+.link:hover {
+  color: #0A0A0A;
+}
+.link:focus {
+  color: #8E8F8C;
+}
+.link:disabled {
+  color: rgba(10, 10, 10, 0.15);
+}
+
+.button-primary {
+  background: #C6FB01;
+  color: #1D1D1D;
+}

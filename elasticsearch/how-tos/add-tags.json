@@ -1,0 +1,65 @@
+POST _bulk 
+{ "index": { "_index": "lookup-tags", "_id": 1 } }
+ { "value": "button_md", "tagname": "button-medium" } 
+{ "index": { "_index": "lookup-tags", "_id": 2 } }
+ { "value": "button_outlined", "tagname": "button-outlined" }
+{ "index": { "_index": "lookup-tags", "_id": 3 } }
+ { "value": "card", "tagname": "card" } 
+{ "index": { "_index": "lookup-tags", "_id": 4 } }
+ { "value": "h1", "tagname": "heading-1" } 
+{ "index": { "_index": "lookup-tags", "_id": 5 } }
+ { "value": "h6", "tagname": "heading-6" } 
+{ "index": { "_index": "lookup-tags", "_id": 6 } }
+ { "value": "image", "tagname": "image" } 
+{ "index": { "_index": "lookup-tags", "_id": 7 } }
+ { "value": "background-image", "tagname": "background-image" }
+{ "index": { "_index": "lookup-tags", "_id": 8 } }
+ { "value": "badge", "tagname": "badge" }
+{ "index": { "_index": "lookup-tags", "_id": 9 } }
+ { "value": "input_md", "tagname": "input-medium" }
+{ "index": { "_index": "lookup-tags", "_id": 10 } }
+ { "value": "link", "tagname": "link" } 
+{ "index": { "_index": "lookup-tags", "_id": 11 } }
+ { "value": "socialmediaicon", "tagname": "social-media-icon" } 
+{ "index": { "_index": "lookup-tags", "_id": 12 } }
+ { "value": "text", "tagname": "text" } 
+{ "index": { "_index": "lookup-tags", "_id": 13 } }
+ { "value": "body-md", "tagname": "body-text-medium" } 
+{ "index": { "_index": "lookup-tags", "_id": 14 } }
+ { "value": "body-lg", "tagname": "body-text-large" } 
+{ "index": { "_index": "lookup-tags", "_id": 15 } }
+ { "value": "i", "tagname": "icon" } 
+{ "index": { "_index": "lookup-tags", "_id": 16 } }
+ { "value": "link_sm", "tagname": "link" } 
+{ "index": { "_index": "lookup-tags", "_id": 17 } }
+ { "value": "button_sm", "tagname": "button-small" } 
+{ "index": { "_index": "lookup-tags", "_id": 18 } }
+ { "value": "caption-md", "tagname": "caption-medium" } 
+{ "index": { "_index": "lookup-tags", "_id": 19 } }
+ { "value": "video", "tagname": "video" } 
+{ "index": { "_index": "lookup-tags", "_id": 20 } }
+ { "value": "fine-print-sm", "tagname": "fine-print-small" } 
+{ "index": { "_index": "lookup-tags", "_id": 21 } }
+ { "value": "fine-print-md", "tagname": "fine-print-medium" } 
+{ "index": { "_index": "lookup-tags", "_id": 22 } }
+ { "value": "h2", "tagname": "heading-2" } 
+{ "index": { "_index": "lookup-tags", "_id": 23 } }
+ { "value": "h3", "tagname": "heading-3" } 
+{ "index": { "_index": "lookup-tags", "_id": 24 } }
+ { "value": "h4", "tagname": "heading-4" } 
+{ "index": { "_index": "lookup-tags", "_id": 25 } }
+ { "value": "mega", "tagname": "heading-mega" } 
+{ "index": { "_index": "lookup-tags", "_id": 26 } }
+ { "value": "has-text-muted", "tagname": "text-muted" } 
+{ "index": { "_index": "lookup-tags", "_id": 27 } }´´
+ { "value": "avatar", "tagname": "avatar " } 
+{ "index": { "_index": "lookup-tags", "_id": 28 } }
+ { "value": "img", "tagname": "image " }
+ { "index": { "_index": "lookup-tags", "_id": 29 } }
+ { "value": "unsplash-image", "tagname": "image " }
+
+/*Go to Kibana - Dev Tools and run the following query to update the policy */
+POST /_enrich/policy/tags-policy/_execute
+
+
+

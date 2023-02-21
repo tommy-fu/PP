@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'icons';
+    src: url("../fonts/icons.ttf") format("truetype");'
+font-weight: normal;
+    font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'icons';
+    src: url('../font/icons.svg?70097024#icons') format('svg');
+  }
+}
+*/
+
+ [class^="pp-"]:before, [class*=" pp-"]:before {
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+
+
+
+.pp-bootstrap:before { content: '\b800'; } /* '렀' */
+.pp-bulma:before { content: '\b801'; } /* '렁' */
+.pp-flex:before { content: '\b802'; } /* '렂' */
+.pp-html5:before { content: '\b803'; } /* '렃' */
+.pp-js:before { content: '\b804'; } /* '렄' */
+.pp-pandacss:before { content: '\b805'; } /* '렅' */
+.pp-react:before { content: '\b806'; } /* '렆' */
+.pp-sass:before { content: '\b807'; } /* '렇' */
+.pp-vue:before { content: '\b808'; } /* '레' */
+.pp-code:before { content: '\b80b'; } /* '렋' */
+.pp-css3:before { content: '\b818'; } /* '렘' */

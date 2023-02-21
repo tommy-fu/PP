@@ -1,0 +1,107 @@
+.dark {
+  background: #1D1D1D;
+}
+
+.dark .input {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .input:active {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border-color: #fff;
+}
+
+.dark .input:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .input:focus {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border-color: #fff;
+}
+
+.dark .input:disabled {
+  background: rgba(255, 255, 255, 0.05);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.01);
+}
+
+.dark .badge {
+  background: #77BBCC;
+  color: #77BBCC;
+  border-color: #77BBCC;
+}
+
+.dark .mega {
+  color: #F7FAFA;
+}
+
+.dark .h1 {
+  color: #F7FAFA;
+}
+
+.dark .h2 {
+  color: #F7FAFA;
+}
+
+.dark .h3 {
+  color: #F7FAFA;
+}
+
+.dark .h4 {
+  color: #F7FAFA;
+}
+
+.dark .h5 {
+  color: #F7FAFA;
+}
+
+.dark .h6 {
+  color: #F7FAFA;
+}
+
+.dark .body-xl {
+  color: #C8CBCC;
+}
+
+.dark .body-lg {
+  color: #C8CBCC;
+}
+
+.dark .body {
+  color: #C8CBCC;
+}
+
+.dark .body-sm {
+  color: #C8CBCC;
+}
+
+.dark .body-xs {
+  color: #C8CBCC;
+}
+
+.dark .link {
+  color: #fff;
+}
+
+.dark .link:active {
+  color: #fff;
+}
+
+.dark .link:hover {
+  color: #fff;
+}
+
+.dark .link:focus {
+  color: #fff;
+}
+
+.dark .link:disabled {
+  color: #fff;
+}

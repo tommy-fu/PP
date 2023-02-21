@@ -1,0 +1,34 @@
+POST _bulk 
+{ "index": { "_index": "lookup-tags" } } { "value": "button_md", "tagname": "button-medium" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "button_outlined", "tagname": "button-outlined" }
+{ "index": { "_index": "lookup-tags" } } { "value": "card", "tagname": "card" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "h1", "tagname": "heading-1" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "h6", "tagname": "heading-6" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "image", "tagname": "image" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "background-image", "tagname": "background-image" }
+{ "index": { "_index": "lookup-tags" } } { "value": "badge", "tagname": "badge" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "input_md", "tagname": "input-medium" }
+{ "index": { "_index": "lookup-tags" } } { "value": "link", "tagname": "link" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "socialmediaicon", "tagname": "social-media-icon" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "text", "tagname": "text" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "body-md", "tagname": "body-text-medium" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "body-lg", "tagname": "body-text-large" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "i", "tagname": "icon" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "link_sm", "tagname": "link" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "button_sm", "tagname": "button-small" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "caption-md", "tagname": "caption-medium" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "video", "tagname": "video" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "fine-print-sm", "tagname": "fine-print-small" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "fine-print-md", "tagname": "fine-print-medium" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "h2", "tagname": "heading-2" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "h3", "tagname": "heading-3" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "h4", "tagname": "heading-4" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "mega", "tagname": "heading-mega" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "has-text-muted", "tagname": "text-muted" } 
+{ "index": { "_index": "lookup-tags" } } { "value": "avatar", "tagname": "avatar " } 
+{ "index": { "_index": "lookup-tags" } } { "value": "img", "tagname": "image " }
+
+POST / _enrich / policy / tags - policy / _execute
+
+
+

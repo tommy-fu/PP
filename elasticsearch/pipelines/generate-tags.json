@@ -1,0 +1,46 @@
+{
+  "description" : "",
+  "processors" : [
+    {
+      "script" : {
+        "lang" : "painless",
+        "source" : """
+      def h = [];
+      def l = [];
+      def c = [];
+      List li = new ArrayList();
+      List hi = new ArrayList();
+      l = /(.*\w.*\s\w.+">|\/div>|\/p>|.*<|\s.\w.*|div>)/.matcher(ctx.html).replaceAll('');
+      l = /\/(\w.*)>/.matcher(l).replaceAll('$1');
+      c = /(<?..?.?.?.?.?\s?\t?class="|\s?">|.\s?style.*;|<\/\w.*>|.*alt.+>|<.*|href="#">)/.matcher(ctx.html).replaceAll(' ');
+      h = l + ' ' + c;
+      h = /\s/.split(h);
+      Set myset = new HashSet();
+      String s = null;
+      for (int i=h.length-1; i>=0; i--) {
+              if (h[i] != "") {
+                li.add(h[i])
+              }
+          }
+      for(ListIterator it = li.listIterator(); it.hasNext();){
+        s = it.next();
+        it.remove();
+        myset.add(s);
+      }
+      hi.addAll(myset);
+      ctx.pretags = hi;
+      """
+      }
+    },
+    {
+      "enrich" : {
+        "description" : "Add tags based on 'value'",
+        "policy_name" : "tags-policy",
+        "field" : "pretags",
+        "target_field" : "tags",
+        "max_matches" : "128",
+        "override" : false
+      }
+    }
+  ]
+}

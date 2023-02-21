@@ -1,0 +1,250 @@
+@import "common/variables";
+
+/** Import everything from autoload */
+@import "./autoload/**/*";
+
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+// @import "~some-node-module";
+
+@import "~bulma";
+
+/** Import theme styles */
+@import "common/global";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/wp-classes";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/tinymce";
+
+.usp-1 {
+  &--subheading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #151515;
+    opacity: 0.85;
+    margin-bottom: 2rem; //USE FIXED SIZES?
+  }
+
+  &--title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #151515;
+    margin-bottom: 3.5rem;
+  }
+
+  &--title-container {
+    max-width: 35rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__item-container {
+    max-width: 23rem;
+  }
+
+  &__item-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 34px;
+    color: #151515;
+    margin-bottom: 0.875rem;
+  }
+
+  &__item-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+
+    /* or 155% */
+    color: #151515;
+    opacity: 0.75;
+    margin-bottom: 0.875rem;
+  }
+
+  &__item-link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 35px;
+    color: #151515;
+    text-transform: uppercase;
+  }
+
+  &__item-icon {
+    width: 120px;
+    height: 119px;
+  }
+}
+
+.usp-2 {
+  &__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #151515;
+    margin-bottom: 1rem;
+  }
+
+  &__description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+
+    /* or 155% */
+
+    color: #151515;
+    opacity: 0.75;
+    margin-bottom: 2rem;
+  }
+
+  &__button {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.875rem;
+    padding: 15px 40px;
+    border-radius: 50px;
+    outline: 0;
+    border: none;
+    background: #83f0f8;
+    text-transform: uppercase;
+    color: #151515;
+    margin: 0;
+  }
+
+  &__title-container {
+    max-width: 23rem;
+  }
+
+  &__item-container {
+    max-width: 23rem;
+    margin-bottom: 3.5rem;
+  }
+
+  &__item-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 34px;
+    color: #151515;
+    margin-bottom: 0.875rem;
+  }
+
+  &__item-link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 35px;
+    color: #151515;
+    text-transform: uppercase;
+  }
+
+  &__item-icon {
+    width: 120px;
+    height: 119px;
+  }
+}
+
+
+
+.hero-1 {
+  &__container {
+    background: #000;
+    display: flex;
+    height: 50rem;
+    align-items: center;
+  }
+
+  &__subheading {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.85;
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 74px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+  }
+
+
+  &__text-container {
+    max-width: 20rem;
+  }
+
+  &__description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    margin-bottom: 1rem;
+  }
+
+  &__button {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.875rem;
+    padding: 20px 40px;
+    border-radius: 50px;
+    outline: 0;
+    border: none;
+    background: #83F0F8;
+    text-transform: uppercase;
+    color: #151515;
+    margin-bottom: 0.875rem;
+  }
+
+  &__second-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    /* or 153% */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.65;
+  }
+}

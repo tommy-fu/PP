@@ -1,0 +1,428 @@
+{
+  "actionLists": {
+    "a-5": {
+      "id": "a-5",
+      "title": "IN Hover Card",
+      "actionItemGroups": [
+        {
+          "actionItems": [
+            {
+              "id": "a-5-n",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".image",
+                  "selectorGuids": [
+                    "8622dfb5-f87f-6482-a5b3-89350702c7c0"
+                  ]
+                },
+                "value": 0.2,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-5-n-3",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".image",
+                  "selectorGuids": [
+                    "8622dfb5-f87f-6482-a5b3-89350702c7c0"
+                  ]
+                },
+                "xValue": 1,
+                "yValue": 1,
+                "locked": true
+              }
+            },
+            {
+              "id": "a-5-n-7",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".caption",
+                  "selectorGuids": [
+                    "e11e3369-7a50-08a0-c0af-cef0076a3363"
+                  ]
+                },
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-5-n-8",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".caption",
+                  "selectorGuids": [
+                    "e11e3369-7a50-08a0-c0af-cef0076a3363"
+                  ]
+                },
+                "yValue": 0,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-5-n-11",
+              "actionTypeId": "STYLE_BACKGROUND_COLOR",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": true,
+                  "id": "60a76956bfd9e05f3898a7b2|dfdfd43e-61c4-108f-2035-74caf32a7e6b"
+                },
+                "rValue": 19,
+                "gValue": 19,
+                "bValue": 19,
+                "aValue": 1
+              }
+            },
+            {
+              "id": "a-5-n-13",
+              "actionTypeId": "TRANSFORM_ROTATE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".caption",
+                  "selectorGuids": [
+                    "e11e3369-7a50-08a0-c0af-cef0076a3363"
+                  ]
+                },
+                "xValue": -40,
+                "xUnit": "deg",
+                "yUnit": "DEG",
+                "zUnit": "DEG"
+              }
+            },
+            {
+              "id": "a-5-n-15",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".image",
+                  "selectorGuids": [
+                    "8622dfb5-f87f-6482-a5b3-89350702c7c0"
+                  ]
+                },
+                "yValue": 0,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-5-n-16",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".image",
+                  "selectorGuids": [
+                    "8622dfb5-f87f-6482-a5b3-89350702c7c0"
+                  ]
+                },
+                "yValue": -16,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-5-n-4",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".image",
+                  "selectorGuids": [
+                    "8622dfb5-f87f-6482-a5b3-89350702c7c0"
+                  ]
+                },
+                "value": 1,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-5-n-6",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".image",
+                  "selectorGuids": [
+                    "8622dfb5-f87f-6482-a5b3-89350702c7c0"
+                  ]
+                },
+                "xValue": 1.15,
+                "yValue": 1.15,
+                "locked": true
+              }
+            },
+            {
+              "id": "a-5-n-12",
+              "actionTypeId": "STYLE_BACKGROUND_COLOR",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": true,
+                  "id": "60a76956bfd9e05f3898a7b2|dfdfd43e-61c4-108f-2035-74caf32a7e6b"
+                },
+                "rValue": 27,
+                "gValue": 27,
+                "bValue": 27,
+                "aValue": 1
+              }
+            },
+            {
+              "id": "a-5-n-9",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 350,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".caption",
+                  "selectorGuids": [
+                    "e11e3369-7a50-08a0-c0af-cef0076a3363"
+                  ]
+                },
+                "value": 1,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-5-n-14",
+              "actionTypeId": "TRANSFORM_ROTATE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 350,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".caption",
+                  "selectorGuids": [
+                    "e11e3369-7a50-08a0-c0af-cef0076a3363"
+                  ]
+                },
+                "xValue": 0,
+                "xUnit": "deg",
+                "yUnit": "DEG",
+                "zUnit": "DEG"
+              }
+            },
+            {
+              "id": "a-5-n-10",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 350,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".caption",
+                  "selectorGuids": [
+                    "e11e3369-7a50-08a0-c0af-cef0076a3363"
+                  ]
+                },
+                "yValue": -16,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            }
+          ]
+        }
+      ],
+      "createdOn": 1621584801400,
+      "useFirstGroupAsInitialState": true
+    },
+    "a-6": {
+      "id": "a-6",
+      "title": "OUT Hover Card",
+      "actionItemGroups": [
+        {
+          "actionItems": [
+            {
+              "id": "a-6-n",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".image",
+                  "selectorGuids": [
+                    "8622dfb5-f87f-6482-a5b3-89350702c7c0"
+                  ]
+                },
+                "value": 0.2,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-6-n-2",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".image",
+                  "selectorGuids": [
+                    "8622dfb5-f87f-6482-a5b3-89350702c7c0"
+                  ]
+                },
+                "xValue": 1,
+                "yValue": 1,
+                "locked": true
+              }
+            },
+            {
+              "id": "a-6-n-3",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".caption",
+                  "selectorGuids": [
+                    "e11e3369-7a50-08a0-c0af-cef0076a3363"
+                  ]
+                },
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-6-n-4",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".caption",
+                  "selectorGuids": [
+                    "e11e3369-7a50-08a0-c0af-cef0076a3363"
+                  ]
+                },
+                "yValue": 0,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-6-n-5",
+              "actionTypeId": "STYLE_BACKGROUND_COLOR",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": true,
+                  "id": "60a76956bfd9e05f3898a7b2|dfdfd43e-61c4-108f-2035-74caf32a7e6b"
+                },
+                "rValue": 19,
+                "gValue": 19,
+                "bValue": 19,
+                "aValue": 1
+              }
+            },
+            {
+              "id": "a-6-n-6",
+              "actionTypeId": "TRANSFORM_ROTATE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 350,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".caption",
+                  "selectorGuids": [
+                    "e11e3369-7a50-08a0-c0af-cef0076a3363"
+                  ]
+                },
+                "xValue": -40,
+                "xUnit": "deg",
+                "yUnit": "DEG",
+                "zUnit": "DEG"
+              }
+            },
+            {
+              "id": "a-6-n-7",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 350,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".image",
+                  "selectorGuids": [
+                    "8622dfb5-f87f-6482-a5b3-89350702c7c0"
+                  ]
+                },
+                "yValue": 0,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            }
+          ]
+        }
+      ],
+      "createdOn": 1621584801400,
+      "useFirstGroupAsInitialState": false
+    }
+  }
+}

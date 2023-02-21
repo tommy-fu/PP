@@ -1,0 +1,20 @@
+.slider {
+  height: calc(100vh - calc(100vh - 100%));
+  position: fixed;
+  z-index: 10000000;
+  right: -100%;
+  width: 100%;
+}
+
+@screen md {
+  .slider {
+    max-width: 400px;
+  }
+}
+
+
+.slider-container {
+  background: #F9F9F9;
+  box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}

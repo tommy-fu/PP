@@ -1,0 +1,33 @@
+{
+    "tags_template" : {
+      "order" : 0,
+      "index_patterns" : [
+        "lookup-tags"
+      ],
+      "settings" : { },
+      "mappings" : {
+        "properties" : {
+          "tagname" : {
+            "type" : "search_as_you_type",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          },
+          "value" : {
+            "type" : "text",
+            "fields" : {
+              "keyword" : {
+                "ignore_above" : 256,
+                "type" : "keyword"
+              }
+            }
+          }
+        }
+      },
+      "aliases" : { }
+    }
+  }
+  

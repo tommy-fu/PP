@@ -1,0 +1,74 @@
+{
+  "elements": [
+    {
+      "key": "section",
+      "styles": [
+        {
+          "key": "background-color",
+          "value": "#fff"
+        }
+      ],
+      "styles_landscape": [],
+      "tablet_styles": [],
+      "desktop_styles": [],
+      "styles_widescreen": []
+    },
+    {
+      "key": "caption",
+      "styles": [
+        {
+          "key": "color",
+          "value": "#31302e"
+        },
+        {
+          "key": "font-weight",
+          "value": "500"
+        },
+        {
+          "key": "font-size",
+          "value": "12px"
+        },
+        {
+          "key": "line-height",
+          "value": "24px"
+        },
+        {
+          "key": "margin-bottom",
+          "value": "8px"
+        },
+        {
+          "key": "letter-spacing",
+          "value": "0.125rem"
+        },
+        {
+          "key": "text-transform",
+          "value": "uppercase"
+        },
+        {
+          "key": "font-family",
+          "value": "Youngserif, 'Palatino Linotype', sans-serif"
+        }
+      ],
+      "styles_landscape": [],
+      "tablet_styles": [],
+      "desktop_styles": [],
+      "styles_widescreen": []
+    },
+    {
+      "key": "title",
+      "styles": [],
+      "styles_landscape": [],
+      "tablet_styles": [],
+      "desktop_styles": [],
+      "styles_widescreen": []
+    },
+    {
+      "key": "body",
+      "styles": [],
+      "styles_landscape": [],
+      "tablet_styles": [],
+      "desktop_styles": [],
+      "styles_widescreen": []
+    }
+  ]
+}

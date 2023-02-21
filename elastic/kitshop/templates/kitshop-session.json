@@ -1,0 +1,38 @@
+{
+    "order": 0,
+    "index_patterns": [
+        "kitshop-session"
+    ],
+    "mappings": {
+        "properties": {
+            "geoip": {
+                "properties": {
+                    "city_name": {
+                        "type": "keyword"
+                    },
+                    "continent_name": {
+                        "type": "keyword"
+                    },
+                    "country_iso_code": {
+                        "type": "keyword"
+                    },
+                    "country_name": {
+                        "type": "keyword"
+                    },
+                    "location": {
+                        "type": "geo_point"
+                    },
+                    "region_iso_code": {
+                        "type": "keyword"
+                    },
+                    "region_name": {
+                        "type": "keyword"
+                    }
+                }
+            },
+            "ip":{
+                "type": "ip"
+            }
+        }
+    }
+}

@@ -1,0 +1,425 @@
+{
+  "actionLists": {
+    "a": {
+      "id": "a",
+      "title": "IN Card Hover",
+      "actionItemGroups": [
+        {
+          "actionItems": [
+            {
+              "id": "a-n-5",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".img-wrapper",
+                  "selectorGuids": [
+                    "86704918-b1b0-60bb-bea8-a0f870d758dd"
+                  ]
+                },
+                "xValue": 1,
+                "yValue": 1,
+                "zValue": 1,
+                "locked": true
+              }
+            },
+            {
+              "id": "a-n-7",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": "SIBLINGS",
+                  "selector": ".card-item",
+                  "selectorGuids": [
+                    "aa54578c-73fc-f19a-c551-5e14e24f518e"
+                  ]
+                },
+                "value": 1,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-n-9",
+              "actionTypeId": "STYLE_BACKGROUND_COLOR",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "useEventTarget": true,
+                  "id": "606ffb2081184150eac99315|b4093a4e-e4ac-fed6-6acc-88fd5b98b1bc"
+                },
+                "rValue": 39,
+                "gValue": 39,
+                "bValue": 39,
+                "aValue": 1
+              }
+            },
+            {
+              "id": "a-n-11",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "selector": ".link-md.has-text-primary",
+                  "selectorGuids": [
+                    "cdfb5223-34f9-d0c3-e1bb-63912d9d079e",
+                    "12f3f7cd-68dc-62f2-8f37-1dd5b15ad1f2"
+                  ]
+                },
+                "yValue": 12,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-n-13",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "selector": ".body-md.has-text-white",
+                  "selectorGuids": [
+                    "884b69b4-e83f-0722-89df-7b8c3f50e290",
+                    "f54fa090-f364-1f03-71cd-9e1fe067f183"
+                  ]
+                },
+                "yValue": 0,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-n-15",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "selector": ".link-md.has-text-primary",
+                  "selectorGuids": [
+                    "cdfb5223-34f9-d0c3-e1bb-63912d9d079e",
+                    "12f3f7cd-68dc-62f2-8f37-1dd5b15ad1f2"
+                  ]
+                },
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-n-17",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "",
+                "duration": 500,
+                "target": {
+                  "selector": ".body-md.has-text-white",
+                  "selectorGuids": [
+                    "884b69b4-e83f-0722-89df-7b8c3f50e290",
+                    "f54fa090-f364-1f03-71cd-9e1fe067f183"
+                  ]
+                },
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        },
+        {
+          "actionItems": [
+            {
+              "id": "a-n-8",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": "SIBLINGS",
+                  "selector": ".card-item",
+                  "selectorGuids": [
+                    "aa54578c-73fc-f19a-c551-5e14e24f518e"
+                  ]
+                },
+                "value": 0.5,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-n-6",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".img-wrapper",
+                  "selectorGuids": [
+                    "86704918-b1b0-60bb-bea8-a0f870d758dd"
+                  ]
+                },
+                "xValue": 1.1,
+                "yValue": 1.1,
+                "zValue": null,
+                "locked": true
+              }
+            },
+            {
+              "id": "a-n-10",
+              "actionTypeId": "STYLE_BACKGROUND_COLOR",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": true,
+                  "id": "606ffb2081184150eac99315|b4093a4e-e4ac-fed6-6acc-88fd5b98b1bc"
+                },
+                "rValue": 74,
+                "gValue": 208,
+                "bValue": 255,
+                "aValue": 1
+              }
+            },
+            {
+              "id": "a-n-18",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "selector": ".body-md.has-text-white",
+                  "selectorGuids": [
+                    "884b69b4-e83f-0722-89df-7b8c3f50e290",
+                    "f54fa090-f364-1f03-71cd-9e1fe067f183"
+                  ]
+                },
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-n-14",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "selector": ".body-md.has-text-white",
+                  "selectorGuids": [
+                    "884b69b4-e83f-0722-89df-7b8c3f50e290",
+                    "f54fa090-f364-1f03-71cd-9e1fe067f183"
+                  ]
+                },
+                "yValue": -12,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-n-16",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "selector": ".link-md.has-text-primary",
+                  "selectorGuids": [
+                    "cdfb5223-34f9-d0c3-e1bb-63912d9d079e",
+                    "12f3f7cd-68dc-62f2-8f37-1dd5b15ad1f2"
+                  ]
+                },
+                "value": 1,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-n-12",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "selector": ".link-md.has-text-primary",
+                  "selectorGuids": [
+                    "cdfb5223-34f9-d0c3-e1bb-63912d9d079e",
+                    "12f3f7cd-68dc-62f2-8f37-1dd5b15ad1f2"
+                  ]
+                },
+                "yValue": 0,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            }
+          ]
+        }
+      ],
+      "useFirstGroupAsInitialState": true,
+      "createdOn": 1618217378792
+    },
+    "a-3": {
+      "id": "a-3",
+      "title": "OUT Card Hover",
+      "actionItemGroups": [
+        {
+          "actionItems": [
+            {
+              "id": "a-3-n-3",
+              "actionTypeId": "TRANSFORM_SCALE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": "CHILDREN",
+                  "selector": ".img-wrapper",
+                  "selectorGuids": [
+                    "86704918-b1b0-60bb-bea8-a0f870d758dd"
+                  ]
+                },
+                "xValue": 1,
+                "yValue": 1,
+                "zValue": 1,
+                "locked": true
+              }
+            },
+            {
+              "id": "a-3-n-4",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": "SIBLINGS",
+                  "selector": ".card-item",
+                  "selectorGuids": [
+                    "aa54578c-73fc-f19a-c551-5e14e24f518e"
+                  ]
+                },
+                "value": 1,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-3-n-5",
+              "actionTypeId": "STYLE_BACKGROUND_COLOR",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "useEventTarget": true,
+                  "id": "606ffb2081184150eac99315|b4093a4e-e4ac-fed6-6acc-88fd5b98b1bc"
+                },
+                "rValue": 39,
+                "gValue": 39,
+                "bValue": 39,
+                "aValue": 1
+              }
+            },
+            {
+              "id": "a-3-n-6",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "selector": ".link-md.has-text-primary",
+                  "selectorGuids": [
+                    "cdfb5223-34f9-d0c3-e1bb-63912d9d079e",
+                    "12f3f7cd-68dc-62f2-8f37-1dd5b15ad1f2"
+                  ]
+                },
+                "yValue": 12,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-3-n-8",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "selector": ".link-md.has-text-primary",
+                  "selectorGuids": [
+                    "cdfb5223-34f9-d0c3-e1bb-63912d9d079e",
+                    "12f3f7cd-68dc-62f2-8f37-1dd5b15ad1f2"
+                  ]
+                },
+                "value": 0,
+                "unit": ""
+              }
+            },
+            {
+              "id": "a-3-n-7",
+              "actionTypeId": "TRANSFORM_MOVE",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "selector": ".body-md.has-text-white",
+                  "selectorGuids": [
+                    "884b69b4-e83f-0722-89df-7b8c3f50e290",
+                    "f54fa090-f364-1f03-71cd-9e1fe067f183"
+                  ]
+                },
+                "yValue": 0,
+                "xUnit": "PX",
+                "yUnit": "px",
+                "zUnit": "PX"
+              }
+            },
+            {
+              "id": "a-3-n-9",
+              "actionTypeId": "STYLE_OPACITY",
+              "config": {
+                "delay": 0,
+                "easing": "outQuad",
+                "duration": 250,
+                "target": {
+                  "selector": ".body-md.has-text-white",
+                  "selectorGuids": [
+                    "884b69b4-e83f-0722-89df-7b8c3f50e290",
+                    "f54fa090-f364-1f03-71cd-9e1fe067f183"
+                  ]
+                },
+                "value": 1,
+                "unit": ""
+              }
+            }
+          ]
+        }
+      ],
+      "useFirstGroupAsInitialState": false,
+      "createdOn": 1618217378792
+    }
+  }
+}

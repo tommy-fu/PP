@@ -1,0 +1,31 @@
+{
+  "description": "Purchase Pipeline",
+  "processors": [
+    {
+      "date": {
+        "field": "sale_timestamp",
+        "target_field": "@timestamp",
+        "formats": [
+          "UNIX",
+          "ISO8601"
+        ],
+        "timezone": "Europe/Amsterdam",
+        "ignore_failure": true
+      }
+    },
+    {
+      "script": {
+        "source": "ctx['session.id'] = ctx.url_params.sid;",
+        "if":  "ctx.url_params.sid != null",
+        "ignore_failure": true
+      }
+    },
+    {
+      "remove": {
+        "field": "url_params.sid",
+        "if":  "ctx.url_params.sid != null",
+        "ignore_failure": true
+      }
+    }
+  ]
+}

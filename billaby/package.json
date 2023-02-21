@@ -1,0 +1,34 @@
+{
+  "name": "nomadletter",
+  "version": "1.0.0",
+  "description": "Nomadletter is a professionally designed and neatly coded landing page kit, tailor-made for startups looking to validate their business idea.",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/css/tailwind.css -o dist/assets/css/main.css",
+    "watch": "postcss src/css/tailwind.css -o dist/assets/css/main.css --watch",
+    "serve": "cross-env NODE_ENV=development concurrently \"postcss src/css/tailwind.css -o dist/assets/css/main.css --watch\"  \"live-server ./dist\"",
+    "dev": "cross-env NODE_ENV=development postcss src/css/tailwind.css -o dist/assets/css/main.css",
+    "prod": "cross-env NODE_ENV=production postcss src/css/tailwind.css -o dist/assets/css/main.css",
+    "start": "npm run serve"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "tailwindUI"
+  ],
+  "author": "TemplateHub",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.0.2",
+    "live-server": "^1.2.1",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.0"
+  }
+}

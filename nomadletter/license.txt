@@ -1,0 +1,12 @@
+Copyright © 2021 TemplateHub.store (https://www.templatehub.store) All rights reserved.
+
+
+All themes, components and assets offered by TemplateHub.store can be used in both personal and commercial projects. However you aren't allowed to:
+
+1. In any way re-distribute our code, designs or assets.
+2. Use the code, designs or assets in page builders or similar products.
+3. Share our products with others outside your team or company.
+4. Use images or screenshots of our code, design or assets without giving us credit or without our permission.
+
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -1,0 +1,47 @@
+image: registry.gitlab.com/viman/paste-panda_laravel:staging
+
+#services:
+#  - mysql:5.7
+
+#variables:
+#  MYSQL_ALLOW_EMPTY_PASSWORD: "true"
+#  MYSQL_DATABASE: laravel
+#  DB_HOST: mysql
+#  APP_KEY: $APP_KEY
+#  LARAVEL_DEPLOY: $LARAVEL_DEPLOY
+stages:
+#  - test
+#  - deploy
+
+test:
+  stage: test
+  script:
+    - cp .env.testing .env
+    - printenv
+    - composer install --prefer-dist --no-ansi --no-interaction --no-progress --no-scripts
+    - php artisan key:generate
+    - php artisan config:clear
+    - vendor/bin/phpunit -v --coverage-text --colors=never --stderr
+    - exit_code=$?
+    - if [ $exit_code -ne 0 ]; then echo "Tests failed with exit code $exit_code"; else echo "Tests succeeded"; fi;
+  cache:
+    paths:
+      - vendor
+  artifacts:
+    paths:
+      - ./storage/logs # for debugging
+    expire_in: 1 days
+    when: always
+  tags:
+    - docker
+  only:
+    - master
+
+deploy:
+  stage: deploy
+  script:
+    - curl -X GET "$LARAVEL_DEPLOY_PROD"
+  only: 
+    - master
+  tags:
+    - docker

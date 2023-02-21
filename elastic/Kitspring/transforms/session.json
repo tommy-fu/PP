@@ -1,0 +1,59 @@
+{
+    "id" : "session",
+    "version" : "7.10.1",
+    "create_time" : 1612793784853,
+    "source" : {
+      "index" : [
+        "beta_test"
+      ],
+      "query" : {
+        "match_all" : { }
+      }
+    },
+    "dest" : {
+      "index" : "sessions"
+    },
+    "frequency" : "1m",
+    "sync" : {
+      "time" : {
+        "field" : "timestamp",
+        "delay" : "60s"
+      }
+    },
+    "pivot" : {
+      "group_by" : {
+        "sessionid" : {
+          "terms" : {
+            "field" : "session.id.keyword"
+          }
+        },
+        "user.id" : {
+          "terms" : {
+            "field" : "user.id.keyword"
+          }
+        }
+      },
+      "aggregations" : {
+        "timestamp_max" : {
+          "max" : {
+            "field" : "timestamp"
+          }
+        },
+        "timestamp_min" : {
+          "min" : {
+            "field" : "timestamp"
+          }
+        },
+        "duration" : {
+          "bucket_script" : {
+            "buckets_path" : {
+              "min" : "timestamp_min",
+              "max" : "timestamp_max"
+            },
+            "script" : "(params.max - params.min)/1000"
+          }
+        }
+      }
+    },
+    "settings" : { }
+  }

@@ -1,0 +1,1050 @@
+.input-xl {
+    border-radius: 50px;
+    width: 100%;
+    outline: none;
+    border-style: solid;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+    line-height: 140%;
+    padding: 21px 32px;
+    font-family: "DM Sans";
+    font-weight: 400;
+}
+
+.input-xl:active {
+    border-radius: 50px;
+}
+
+.input-xl:hover {
+    border-radius: 50px;
+}
+
+.input-xl:focus {
+    border-radius: 50px;
+}
+
+.input-xl:disabled {
+    border-radius: 50px;
+}
+
+.input-lg {
+    border-radius: 50px;
+    width: 100%;
+    outline: none;
+    border-style: solid;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 100%;
+    padding: 19px 24px;
+    font-family: "DM Sans";
+    font-weight: 400;
+}
+
+.input-md {
+    border-radius: 50px;
+    width: 100%;
+    outline: none;
+    border-style: solid;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 100%;
+    padding: 12px 18px;
+    font-family: "DM Sans";
+    font-weight: 400;
+}
+
+.input-sm {
+    border-radius: 50px;
+
+
+    width: 100%;
+    outline: none;
+    border-style: solid;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 100%;
+    padding: 13px 20px;
+    font-family: "DM Sans";
+    font-weight: 400;
+}
+
+.input-xs {
+    border-radius: 50px;
+    width: 100%;
+    outline: none;
+    border-style: solid;
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 100%;
+    padding: 10px 16px;
+    font-family: "DM Sans";
+    font-weight: 400;
+}
+
+.button-xl {
+    border-radius: 50px;
+    font-weight: 400;
+    cursor: pointer;
+    border-style: solid;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    line-height: 100%;
+    padding: 21px 32px;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+    font-family: "DM Sans";
+}
+
+
+.button-lg {
+    border-radius: 50px;
+    font-weight: 400;
+
+
+    cursor: pointer;
+    border-style: solid;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    line-height: 100%;
+    padding: 19px 24px;
+    font-size: 18px;
+    letter-spacing: 0em;
+    font-family: "DM Sans";
+}
+
+
+.button-md {
+    border-radius: 50px;
+    font-weight: 400;
+    cursor: pointer;
+    border-style: solid;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    line-height: 100%;
+    padding: 12px 18px;
+    font-size: 16px;
+    letter-spacing: 0em;
+    font-family: "DM Sans";
+}
+
+
+.button-sm {
+    border-radius: 50px;
+    font-weight: 400;
+    cursor: pointer;
+    border-style: solid;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    line-height: 100%;
+    padding: 13px 20px;
+    font-size: 14px;
+    letter-spacing: 0em;
+    font-family: "DM Sans";
+}
+
+.button-xs {
+    border-radius: 50px;
+    font-weight: 400;
+    cursor: pointer;
+    border-style: solid;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    line-height: 100%;
+    padding: 10px 16px;
+    font-size: 12px;
+    letter-spacing: 0em;
+    font-family: "DM Sans";
+}
+
+
+.mega {
+
+    font-family: "DM Sans";
+    font-weight: 500;
+
+    font-size: 59px;
+    letter-spacing: -0.06em;
+    line-height: 105%;
+}
+
+.h1 {
+
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 43px;
+    letter-spacing: -0.05em;
+    line-height: 110%;
+}
+
+.h2 {
+
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 32px;
+    letter-spacing: -0.04em;
+    line-height: 115%;
+}
+
+.h3 {
+
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: -0.03em;
+    line-height: 120%;
+}
+
+.h4 {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    line-height: 125%;
+}
+
+.h5 {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+    line-height: 130%;
+}
+
+.h6 {
+    font-family: "DM Sans";
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 135%;
+}
+
+.body-xl {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+    line-height: 140%;
+}
+
+.body-lg {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 145%;
+}
+
+.body-md {
+
+    font-family: "DM Sans";
+    font-weight: 400;
+
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 150%;
+}
+
+.body-sm {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 155%;
+}
+
+.body-xs {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 160%;
+}
+
+.caption-lg {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 145%;
+    font-family: "DM Sans";
+}
+
+.caption {
+    font-weight: 400;
+
+
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "DM Sans";
+}
+
+.caption-sm {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 155%;
+    font-family: "DM Sans";
+}
+
+.link-xl {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 22px;
+    letter-spacing: -0.01em;
+    line-height: 140%;
+    font-family: "DM Sans";
+    font-weight: 400;
+}
+
+
+.link-lg {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 0em;
+    line-height: 145%;
+    font-family: "DM Sans";
+    font-weight: 400;
+}
+
+
+.link-md {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 0em;
+    line-height: 150%;
+    font-family: "DM Sans";
+    font-weight: 400;
+}
+
+.link-sm {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 0em;
+    line-height: 155%;
+    font-family: "DM Sans";
+    font-weight: 400;
+}
+
+
+.link-xs {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 0em;
+    line-height: 160%;
+    font-family: "DM Sans";
+    font-weight: 400;
+}
+
+@screen sm {
+    .input-xl {
+        border-width: 1px;
+        font-size: 24px;
+        letter-spacing: -0.01em;
+        line-height: 140%;
+        padding: 28px 40px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .input-lg {
+        border-width: 1px;
+        font-size: 20px;
+        letter-spacing: 0em;
+        line-height: 145%;
+        padding: 22px 32px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .input-md {
+        border-width: 1px;
+        font-size: 17px;
+        letter-spacing: 0em;
+        line-height: 150%;
+        padding: 15.5px 22px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .input-sm {
+        border-width: 1px;
+        font-size: 14px;
+        letter-spacing: 0em;
+        line-height: 155%;
+        padding: 13px 20px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .input-xs {
+        border-width: 1px;
+        font-size: 12px;
+        letter-spacing: 0em;
+        line-height: 160%;
+        padding: 10px 16px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .button-xl {
+        padding: 28px 40px;
+        font-size: 24px;
+        letter-spacing: -0.01em;
+        font-family: "DM Sans";
+    }
+
+    .button-lg {
+        padding: 22px 32px;
+        font-size: 20px;
+        letter-spacing: 0em;
+        font-family: "DM Sans";
+    }
+
+    .button-md {
+        padding: 15.5px 22px;
+        font-size: 17px;
+        letter-spacing: 0em;
+        font-family: "DM Sans";
+    }
+
+    .button-sm {
+        padding: 13px 20px;
+        font-size: 14px;
+        letter-spacing: 0em;
+        font-family: "DM Sans";
+    }
+
+    .button-xs {
+        padding: 10px 16px;
+        font-size: 12px;
+        letter-spacing: 0em;
+        font-family: "DM Sans";
+    }
+
+    .mega {
+        font-size: 79px;
+        letter-spacing: -0.06em;
+        line-height: 105%;
+    }
+
+    .h1 {
+        font-size: 57px;
+        letter-spacing: -0.05em;
+        line-height: 110%;
+    }
+
+    .h2 {
+        font-size: 43px;
+        letter-spacing: -0.04em;
+        line-height: 115%;
+    }
+
+    .h3 {
+        font-size: 32px;
+        letter-spacing: -0.03em;
+        line-height: 120%;
+    }
+
+    .h4 {
+        font-size: 26px;
+        letter-spacing: -0.02em;
+        line-height: 125%;
+    }
+
+    .h5 {
+        font-size: 24px;
+        letter-spacing: -0.01em;
+        line-height: 130%;
+    }
+
+    .h6 {
+        font-size: 20px;
+        letter-spacing: 0em;
+        line-height: 135%;
+    }
+
+    .body-xl {
+        font-size: 24px;
+        letter-spacing: -0.01em;
+        line-height: 140%;
+    }
+
+    .body-lg {
+        font-size: 20px;
+        letter-spacing: 0em;
+        line-height: 145%;
+    }
+
+    .body-md {
+        font-size: 17px;
+        letter-spacing: 0em;
+        line-height: 150%;
+    }
+
+    .body-sm {
+        font-size: 14px;
+        letter-spacing: 0em;
+        line-height: 155%;
+    }
+
+    .body-xs {
+        font-size: 12px;
+        letter-spacing: 0em;
+        line-height: 160%;
+    }
+
+    .caption-lg {
+        font-size: 20px;
+        line-height: 145%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .caption {
+        font-size: 17px;
+        line-height: 150%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .caption-sm {
+        font-size: 14px;
+        line-height: 155%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-xl {
+        font-size: 24px;
+        letter-spacing: -0.01em;
+        line-height: 140%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-lg {
+        font-size: 20px;
+        letter-spacing: 0em;
+        line-height: 145%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-md {
+        font-size: 17px;
+        letter-spacing: 0em;
+        line-height: 150%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-sm {
+        font-size: 14px;
+        letter-spacing: 0em;
+        line-height: 155%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-xs {
+        font-size: 12px;
+        letter-spacing: 0em;
+        line-height: 160%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+}
+@screen md {
+    .input-xl {
+        border-width: 1px;
+        font-size: 24px;
+        letter-spacing: -0.01em;
+        line-height: 100%;
+        padding: 28px 40px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .input-lg {
+        border-width: 1px;
+        font-size: 20px;
+        letter-spacing: 0em;
+        line-height: 100%;
+        padding: 22px 32px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .input-md {
+        border-width: 1px;
+        font-size: 17px;
+        letter-spacing: 0em;
+        line-height: 100%;
+        padding: 15.5px 22px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .input-sm {
+        border-width: 1px;
+        font-size: 14px;
+        letter-spacing: 0em;
+        line-height: 100%;
+        padding: 13px 20px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .input-xs {
+        border-width: 1px;
+        font-size: 12px;
+        letter-spacing: 0em;
+        line-height: 100%;
+        padding: 10px 16px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .button-xl {
+        padding: 28px 40px;
+        font-size: 24px;
+        letter-spacing: -0.01em;
+        font-family: "DM Sans";
+    }
+
+    .button-lg {
+        padding: 22px 32px;
+        font-size: 20px;
+        letter-spacing: 0em;
+        font-family: "DM Sans";
+    }
+
+    .button-md {
+        padding: 15.5px 22px;
+        font-size: 17px;
+        letter-spacing: 0em;
+        font-family: "DM Sans";
+    }
+
+    .button-sm {
+        padding: 13px 20px;
+        font-size: 14px;
+        letter-spacing: 0em;
+        font-family: "DM Sans";
+    }
+
+    .button-xs {
+        padding: 10px 16px;
+        font-size: 12px;
+        letter-spacing: 0em;
+        font-family: "DM Sans";
+    }
+
+    .mega {
+        font-size: 79px;
+        letter-spacing: -0.06em;
+        line-height: 105%;
+    }
+
+    .h1 {
+        font-size: 57px;
+        letter-spacing: -0.05em;
+        line-height: 110%;
+    }
+
+    .h2 {
+        font-size: 43px;
+        letter-spacing: -0.04em;
+        line-height: 115%;
+    }
+
+    .h3 {
+        font-size: 32px;
+        letter-spacing: -0.03em;
+        line-height: 120%;
+    }
+
+    .h4 {
+        font-size: 26px;
+        letter-spacing: -0.02em;
+        line-height: 125%;
+    }
+
+    .h5 {
+        font-size: 24px;
+        letter-spacing: -0.01em;
+        line-height: 130%;
+    }
+
+    .h6 {
+        font-size: 20px;
+        letter-spacing: 0em;
+        line-height: 135%;
+    }
+
+    .body-xl {
+        font-size: 24px;
+        letter-spacing: -0.01em;
+        line-height: 140%;
+    }
+
+    .body-lg {
+        font-size: 20px;
+        letter-spacing: 0em;
+        line-height: 145%;
+    }
+
+    .body-md {
+        font-size: 17px;
+        letter-spacing: 0em;
+        line-height: 150%;
+    }
+
+    .body-sm {
+        font-size: 14px;
+        letter-spacing: 0em;
+        line-height: 155%;
+    }
+
+    .body-xs {
+        font-size: 12px;
+        letter-spacing: 0em;
+        line-height: 160%;
+    }
+
+    .caption-lg {
+        font-size: 20px;
+        line-height: 145%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .caption {
+        font-size: 17px;
+        line-height: 150%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .caption-sm {
+        font-size: 14px;
+        line-height: 155%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-xl {
+        font-size: 24px;
+        letter-spacing: -0.01em;
+        line-height: 140%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-lg {
+        font-size: 20px;
+        letter-spacing: 0em;
+        line-height: 145%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-md {
+        font-size: 17px;
+        letter-spacing: 0em;
+        line-height: 150%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-sm {
+        font-size: 14px;
+        letter-spacing: 0em;
+        line-height: 155%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-xs {
+        font-size: 12px;
+        letter-spacing: 0em;
+        line-height: 160%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+}
+@screen lg {
+    .input-xl {
+        border-width: 1px;
+        font-size: 26px;
+        letter-spacing: -0.01em;
+        line-height: 140%;
+        padding: 31px 48px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .input-lg {
+        border-width: 1px;
+        font-size: 22px;
+        letter-spacing: 0em;
+        line-height: 145%;
+        padding: 25px 40px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .input-md {
+        border-width: 1px;
+        font-size: 18px;
+        letter-spacing: 0em;
+        line-height: 150%;
+        padding: 19px 24px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .input-sm {
+        border-width: 1px;
+        font-size: 14px;
+        letter-spacing: 0em;
+        line-height: 155%;
+        padding: 13px 20px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .input-xs {
+        border-width: 1px;
+        font-size: 12px;
+        letter-spacing: 0em;
+        line-height: 160%;
+        padding: 10px 16px;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .button-xl {
+        padding: 31px 48px;
+        font-size: 26px;
+        letter-spacing: -0.01em;
+        font-family: "DM Sans";
+    }
+
+    .button-lg {
+        padding: 25px 40px;
+        font-size: 22px;
+        letter-spacing: 0em;
+        font-family: "DM Sans";
+    }
+
+    .button-md {
+        padding: 19px 24px;
+        font-size: 18px;
+        letter-spacing: 0em;
+        font-family: "DM Sans";
+    }
+
+    .button-sm {
+        padding: 13px 20px;
+        font-size: 14px;
+        letter-spacing: 0em;
+        font-family: "DM Sans";
+    }
+
+    .button-xs {
+        padding: 10px 16px;
+        font-size: 12px;
+        letter-spacing: 0em;
+        font-family: "DM Sans";
+    }
+
+    .mega {
+        font-size: 88px;
+        letter-spacing: -0.06em;
+        line-height: 105%;
+    }
+
+    .h1 {
+        font-size: 64px;
+        letter-spacing: -0.05em;
+        line-height: 110%;
+    }
+
+    .h2 {
+        font-size: 48px;
+        letter-spacing: -0.04em;
+        line-height: 115%;
+    }
+
+    .h3 {
+        font-size: 36px;
+        letter-spacing: -0.03em;
+        line-height: 120%;
+    }
+
+    .h4 {
+        font-size: 30px;
+        letter-spacing: -0.02em;
+        line-height: 125%;
+    }
+
+    .h5 {
+        font-size: 26px;
+        letter-spacing: -0.01em;
+        line-height: 130%;
+    }
+
+    .h6 {
+        font-size: 22px;
+        letter-spacing: 0em;
+        line-height: 135%;
+    }
+
+    .body-xl {
+        font-size: 26px;
+        letter-spacing: -0.01em;
+        line-height: 140%;
+    }
+
+    .body-lg {
+        font-size: 22px;
+        letter-spacing: 0em;
+        line-height: 145%;
+    }
+
+    .body-md {
+        font-size: 18px;
+        letter-spacing: 0em;
+        line-height: 150%;
+    }
+
+    .body-sm {
+        font-size: 14px;
+        letter-spacing: 0em;
+        line-height: 155%;
+    }
+
+    .body-xs {
+        font-size: 12px;
+        letter-spacing: 0em;
+        line-height: 160%;
+    }
+
+    .caption-lg {
+        font-size: 22px;
+        line-height: 145%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .caption {
+        font-size: 18px;
+        line-height: 150%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .caption-sm {
+        font-size: 14px;
+        line-height: 155%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-xl {
+        font-size: 26px;
+        letter-spacing: -0.01em;
+        line-height: 140%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-lg {
+        font-size: 22px;
+        letter-spacing: 0em;
+        line-height: 145%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-md {
+        font-size: 18px;
+        letter-spacing: 0em;
+        line-height: 150%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-sm {
+        font-size: 14px;
+        letter-spacing: 0em;
+        line-height: 155%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+
+    .link-xs {
+        font-size: 12px;
+        letter-spacing: 0em;
+        line-height: 160%;
+        font-family: "DM Sans";
+        font-weight: 400;
+    }
+}
+
+
+header {
+    height: 128px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.social-media-icon {
+    transition: 0.2s;
+}
+
+.social-media-icon, .social-media-icon:active {
+    color: #C7C7C7;
+}
+
+.social-media-icon:hover {
+    color: #0A0A0A;
+}
+
+.social-media-icon:focus {
+    color: #DBDBDB;
+}
+
+.social-media-icon:disabled {
+    color: rgba(199, 199, 199, 0.15);
+}
+
+
+body.disable-scroll {
+    overflow: hidden;
+}

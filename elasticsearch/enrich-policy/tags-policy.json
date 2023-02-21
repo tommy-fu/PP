@@ -1,0 +1,14 @@
+    {
+      "config" : {
+        "match" : {
+          "name" : "tags-policy",
+          "indices" : [
+            "lookup-tags"
+          ],
+          "match_field" : "value",
+          "enrich_fields" : [
+            "name"
+          ]
+        }
+      }
+    }
